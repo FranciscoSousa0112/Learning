@@ -20,3 +20,11 @@ function clearDisplay(){
 
     display.value = "";
 }
+
+function calculatePercentage() {
+    try {
+        display.value = eval(display.value) / 100;
+    } catch (error) {
+        display.value = 'Error';
+    }
+}
