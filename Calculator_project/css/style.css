@@ -32,15 +32,6 @@ body{
     padding: 25px;
 }
 
-#button_1 {
-    grid-column: 1 / span 2; 
-    width: 210px; 
-    border-radius: 50px;
-    text-align: left; 
-    padding-left: 30px; 
-}
-
-
 button{
     width: 100px;
     height: 100px;
@@ -52,6 +43,15 @@ button{
     font-weight: 500;
     cursor: pointer;
 }
+
+#button_1 {
+    grid-column: 1 / span 2; 
+    width: 210px; 
+    border-radius: 50px;
+    text-align: left; 
+    padding-left: 30px; 
+}
+
 
 button:hover{
     background-color: hsl(0, 0%, 40%);
@@ -74,4 +74,16 @@ button:active{
 .operator-button:active{
     background-color: hsl(40, 100%, 70%);
 
+}
+
+.first-row-button{
+    background-color: hwb(0 80% 19%);
+}
+
+.first-row-button:hover{
+    background-color: hwb(0 80% 29%);
+}
+
+.first-row-button:active{
+    background-color: hwb(0 80% 39%);
 }
